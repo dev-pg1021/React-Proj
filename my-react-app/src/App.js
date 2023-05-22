@@ -12,6 +12,7 @@ function App() {
 
 function Interpolationbasics() {
   let title = "hello universe";
+  let name = "Pranay";
   let para = `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam libero,
   aut iusto quam quasi earum corrupti dicta quis tempore eligendi,
   repudiandae eum sit quae! Cum animi ratione architecto exercitationem
@@ -20,6 +21,7 @@ function Interpolationbasics() {
     <div>
       <h1>{title}</h1>
       <p>{para}</p>
+      <p>{name}</p>
     </div>
   );
 }
